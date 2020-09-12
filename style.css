@@ -1,0 +1,501 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height: 110vh;
+	width: 100%;
+	background-image: url(main.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/*.overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.6);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}*/
+
+
+.nav-item{
+	margin-left: 30px;
+}
+
+.navbar{
+	margin-top: 20px;
+}
+
+
+.banner-text{
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.banner-text{
+  margin-top: 200px;
+  color: white;
+}
+
+.banner-text p{
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.tt {
+	margin-top: 10px;
+	letter-spacing: 10px;
+}
+
+
+.banner-icon button{
+	cursor: pointer;
+}
+
+
+
+
+/*************************/
+  /*body-01 start here*/
+/*************************/
+
+.body-01{
+	width: 100%;
+	padding: 80px 0;
+}
+
+.body-01-header{
+	text-align: center;
+	letter-spacing: 8px;
+	margin-top: 60px;
+	color: #000000;
+}
+
+
+.body-01-img{
+	text-align: center;
+	margin-top: 80px;
+}
+
+
+
+.body-01-img p{
+	margin-top: 30px;
+	font-size: 19px;
+	color: #818181;
+}
+
+
+.body-01-tex p{
+	width: 95%;
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+.body-01-tex{
+	margin-left: 90px;
+}
+
+
+.body-01-icon{
+	text-align: center;
+}
+
+.body-01-icon ul li a i{
+	height: 40px;
+	width: 40px;
+	background-color: #c6c6c5;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.body-01-icon ul li{
+	display: inline-block;
+	margin: 30px;
+	list-style: none;
+
+}
+
+
+
+
+
+.body-01-icon ul li a i:hover{
+	background-color: #ffb233;
+	border: none;
+	transition: 0.5;
+}
+
+
+.body-01-icon ul li a i:hover{
+	background-color: #ffb233;
+	transition: all 0.5s ease-in-out;
+}
+
+
+
+/*************************/
+  /*body-01 end here*/
+/*************************/
+
+
+
+
+/*************************/
+  /*body-02 start here*/
+/*************************/
+
+.body-02{
+	padding: 70px 0;
+	width: 100%;
+	
+	width: 100%;
+	background-image: url(02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+
+.overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.7);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+.body-02-text h2{	
+	margin: 100px;
+	letter-spacing:8px; 
+	color: white;
+}
+
+
+.body-02-icon ul li i{
+	height: 65px;
+	width: 65px;
+	background-color: #ffb233;
+	line-height: 65px;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	border: 2px solid #705426;
+	font-size: 25px;
+}
+
+
+.body-02-icon ul li{
+	display: inline-block;
+	margin: 30px;
+	list-style: none;
+}
+
+
+.body-02-icon ul li p{
+	color: white;
+	margin-top: 10px;
+}
+
+/*************************/
+  /*body-02 end here*/
+/*************************/
+
+
+
+
+/*************************/
+  /*body-03 start here*/
+/*************************/
+.body-03{
+	padding: 100px 0;
+	width: 100%;
+	background-color: #f3f4ff;
+}
+
+.count{
+	text-align: center;
+}
+
+.count p{
+	font-style: italic;
+	font-size: 20px;
+	color: #4b4b4c;
+}
+
+.count h1{
+	font-size: 47px;
+	font-weight: 700;
+	color: #444444;
+}
+
+.count .line{
+	width: 20%;
+	margin: 20px auto;
+	background-color: #51a351;
+	height: 3px;
+}
+
+
+/*************************/
+  /*body-03 end here*/
+/*************************/
+
+
+
+
+
+
+/*************************/
+  /*body-04 start here*/
+/*************************/
+.body-04{
+	padding: 70px 0;
+	width: 100%;
+
+}
+
+
+.body-04-tex h2{
+	text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #1d1d1d;
+}
+
+
+.image{
+	text-align: center;
+
+}
+
+
+.spinner-border{
+	margin-top: 80px;
+	
+}
+
+
+
+
+/*************************/
+  /*body-04 end here*/
+/*************************/
+
+
+
+
+
+/*************************/
+  /*body-05 start here*/
+/*************************/
+
+.body-05{
+	height: 105vh;
+	width: 100%;
+	background-image: url(banner02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-05-text h2{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	margin-top: 70px;
+}
+
+
+.body-05-text p{
+	text-align: center;
+	width: 72%;
+	margin-left: 150px;
+	margin-top: 70px;
+	line-height: 40px;
+}
+
+
+.body-05-img .line{
+	width: 5%;
+	margin: 10px auto;
+	background-color: #ffb233;
+	height: 3px;
+}
+
+
+.body-05-img{
+	text-align: center;
+	margin-top: 70px;
+}
+
+.body-05-img h5{
+	text-transform: uppercase;
+	word-spacing: 8px;
+}
+
+.body-05-img p{
+	margin-top: 10px;
+}
+
+
+/*************************/
+  /*body-05 end here*/
+/*************************/
+
+
+
+
+
+/*************************/
+  /*body-06 start here*/
+/*************************/
+
+.body-06{
+	height: 105vh;
+	width: 100%;
+	background-image: url(foote.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px;
+	color: white;
+	
+}
+
+
+.part-01 h3{
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+
+.part-01 p{
+	margin-top: 30px;
+}
+
+
+.Address{
+	margin-top: 20px;
+}
+
+.part-02{
+	margin-left: 150px;
+}
+
+.part-01{
+	margin-left: 50px;
+}
+
+.input-info{
+	text-align: center;
+}
+
+
+
+.input-info input{
+  font-family:  sans-serif;
+  width: 25%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border: 2px solid white;
+  background: transparent;
+  margin-left: 18px;
+  color: white;
+}
+
+
+.input02{
+	text-align: center;
+}
+
+
+.input02 input{
+  font-family:  sans-serif;
+  width: 52%;
+  padding: 10px;
+  padding-bottom: 120px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border: 2px solid white;
+  background: transparent;
+  margin-left: 18px;
+  transform: all 0.5 ease-in-out;
+  color: white;
+}
+
+.input02 input:hover{
+	border: 2px solid #ffb233;
+	transform: all 0.5 ease-in-out;
+}
+
+.input-info input:hover{
+	border: 2px solid #ffb233;
+	transform: all 0.5 ease-in-out;
+}
+
+.input02 p{
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+
+.input-info{
+	margin-top: 50px;
+}
+
+.input02 button{
+	
+  width: 52%;
+  padding: 10px;
+ 
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border: 2px solid #28a745;
+  background-color: #28a745;
+  margin-left: 18px;
+  transform: all 0.5 ease-in-out;
+  color: white;
+  opacity: 1;
+}
+
+
+.input02 button:hover{
+	opacity: 0.8;
+}
+
+
+/*************************/
+  /*body-06 end here*/
+/*************************/
